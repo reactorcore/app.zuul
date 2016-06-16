@@ -1,15 +1,23 @@
+eureka:
+  client:
+    enabled: false
 zuul:
   routes:
     get:
       path: /get/**
       url: http://httpbin.org/get
-    links:
-      path: /links/**
-      url: http://httpbin.org/links
-    images:
-      path: /image/**
-      url: http://httpbin.org/image
-
-eureka:
-  client:
-    enabled: false
+    studentwiki:
+      path: /student-wiki/v0/**
+      url: http://rc-student-wiki.herokuapp.com
+    staffwiki:
+      path: /staff-wiki/v0/**
+      url: http://rc-staff-wiki.herokuapp.com
+    choreographer:
+      path: /choreographer/v0/**
+      url: http://rc-choreographer.herokuapp.com
+    library:
+      path: /library/v0/**
+      url: http://rc-library.herokuapp.com
+    interviewprompts:
+      path: /interview-prompts/v0/**
+      url: http://rc-interview-prompts.herokuapp.com
