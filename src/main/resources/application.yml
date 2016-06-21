@@ -8,16 +8,16 @@ zuul:
       url: http://httpbin.org/get
     studentwiki:
       path: /student-wiki/v0/**
-      url: http://rc-student-wiki.herokuapp.com
+      url: http://hr-student-wiki-production.herokuapp.com
     staffwiki:
       path: /staff-wiki/v0/**
-      url: http://rc-staff-wiki.herokuapp.com
+      url: http://hr-staff-wiki-production.herokuapp.com
     choreographer:
       path: /choreographer/v0/**
-      url: http://rc-choreographer.herokuapp.com
+      url: http://rc-choreographer-production.herokuapp.com
     library:
       path: /library/v0/**
-      url: http://rc-library.herokuapp.com
+      url: http://rc-library-production.herokuapp.com
     interviewprompts:
       path: /interview-prompts/v0/**
-      url: http://rc-interview-prompts.herokuapp.com
+      url: http://rc-interview-prompt-production.herokuapp.com
