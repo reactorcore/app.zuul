@@ -21,3 +21,6 @@ zuul:
     interviewprompts:
       path: /interview-prompts/v0/**
       url: http://rc-interview-prompt-production.herokuapp.com
+    interviewpromptsshort:
+      path: /prompts/**
+      url: http://rc-interview-prompt-production.herokuapp.com
