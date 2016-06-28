@@ -9,9 +9,9 @@ zuul:
     studentwiki:
       path: /student-wiki/v0/**
       url: http://rc-student-wiki.herokuapp.com
-    staffwiki:
-      path: /staff-wiki/v0/**
-      url: http://rc-staff-wiki.herokuapp.com
+    instructorwiki:
+      path: /instructor-wiki/v0/**
+      url: http://rc-instructor-wiki.herokuapp.com
     choreographer:
       path: /choreographer/v0/**
       url: http://rc-choreographer.herokuapp.com
